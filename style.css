@@ -24,6 +24,9 @@ body {
   background-color: var(--Very-dark-blue-main);
   color: white;
   font-family: 'Outfit', sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 .main-container {
