@@ -28,12 +28,42 @@ body {
 
 .main-container {
   background-color: var(--Very-dark-blue-card);
-  width: 215px;
+  width: 235px;
   padding: 15px;
   border-radius: 14px;
 }
 
 .main-container .main-img {
-  width: 185px;
+  width: 205px;
   border-radius: 8px;
+}
+
+.main-container h1 {
+  font-size: 1.5rem;
+  margin-top: 1.4rem;
+}
+
+.main-container .main-text {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-weight: 300;
+  color: var(--Soft-blue);
+  margin-top: 1.4rem;
+}
+
+.main-container .eth {
+  display: flex;
+  color: var(--Cyan);
+  align-items: center;
+}
+
+.main-container .eth img {
+  height: 1.2rem;
+  margin-top: 13px;
+  margin-right: 5px;
+}
+
+.main-container .eth p {
+  font-size: 1rem;
+  margin-top: 1.5rem;
 }
